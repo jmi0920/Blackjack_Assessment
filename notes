@@ -1,0 +1,39 @@
+Project Outline
+===============
+	Can this be a gui program?
+		Repurpose ACI work
+		
+	dealer class?
+		Dealer.deal
+		Dealer.hit
+		Dealer.stand
+
+	player class
+
+	Ace handling
+		Can be either 1 or 11
+		start as 11?
+		if hand > 21, 11 -> 1
+		if == 21, blackjack
+
+	Start program by creating a dealer object
+
+	Add unit tests if possible
+	1 deck of cards
+		A = 1 or 11
+		Face = 10
+		How will this be represented??
+			Multidimensional array
+			0-3: Suit
+			0-12: card
+			Once a card has been choosen, add to 'choosen_array'
+			Similar to OPORD arrays
+	2 players, dealer & player
+	each dealt 2 cards
+	if either is dealt 21 on opening hand, instant win
+	player goes first
+		can hit any number of times till bust or stand
+		if bust, dealer wins
+	dealer must hit if cards < 17
+		random int 0-1, if 0 stand, else hit
+	
